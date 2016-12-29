@@ -1,0 +1,859 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		186FE0FC1E150C5C001B1DD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186FE0FB1E150C5C001B1DD3 /* ViewController.m */; };
+		186FE0FE1E150C81001B1DD3 /* WebViewJavascriptBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186FE0FD1E150C81001B1DD3 /* WebViewJavascriptBridge.framework */; };
+		186FE1241E1510E7001B1DD3 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 186FE1021E1510E7001B1DD3 /* IQNSArray+Sort.m */; };
+		186FE1251E1510E7001B1DD3 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 186FE1041E1510E7001B1DD3 /* IQUITextFieldView+Additions.m */; };
+		186FE1261E1510E7001B1DD3 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 186FE1061E1510E7001B1DD3 /* IQUIView+Hierarchy.m */; };
+		186FE1271E1510E7001B1DD3 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 186FE1081E1510E7001B1DD3 /* IQUIViewController+Additions.m */; };
+		186FE1281E1510E7001B1DD3 /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 186FE10A1E1510E7001B1DD3 /* IQUIWindow+Hierarchy.m */; };
+		186FE1291E1510E7001B1DD3 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 186FE10F1E1510E7001B1DD3 /* IQKeyboardManager.m */; };
+		186FE12A1E1510E7001B1DD3 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 186FE1111E1510E7001B1DD3 /* IQKeyboardReturnKeyHandler.m */; };
+		186FE12B1E1510E7001B1DD3 /* IQSegmentedNextPrevious.m in Sources */ = {isa = PBXBuildFile; fileRef = 186FE1141E1510E7001B1DD3 /* IQSegmentedNextPrevious.m */; };
+		186FE12C1E1510E7001B1DD3 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186FE1171E1510E7001B1DD3 /* IQTextView.m */; };
+		186FE12D1E1510E7001B1DD3 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 186FE11A1E1510E7001B1DD3 /* IQBarButtonItem.m */; };
+		186FE12E1E1510E7001B1DD3 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 186FE11C1E1510E7001B1DD3 /* IQTitleBarButtonItem.m */; };
+		186FE12F1E1510E7001B1DD3 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 186FE11E1E1510E7001B1DD3 /* IQToolbar.m */; };
+		186FE1301E1510E7001B1DD3 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 186FE1201E1510E7001B1DD3 /* IQUIView+IQKeyboardToolbar.m */; };
+		186FE1311E1510E7001B1DD3 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 186FE1231E1510E7001B1DD3 /* IQKeyboardManager.bundle */; };
+		187E0EEC1E13B2940009CFAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187E0EEB1E13B2940009CFAC /* main.m */; };
+		187E0EEF1E13B2940009CFAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187E0EEE1E13B2940009CFAC /* AppDelegate.m */; };
+		187E0EF51E13B2950009CFAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187E0EF31E13B2950009CFAC /* Main.storyboard */; };
+		187E0EF71E13B2950009CFAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187E0EF61E13B2950009CFAC /* Assets.xcassets */; };
+		187E0EFA1E13B2950009CFAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187E0EF81E13B2950009CFAC /* LaunchScreen.storyboard */; };
+		187E0F051E13B2950009CFAC /* RedPackgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187E0F041E13B2950009CFAC /* RedPackgeTests.m */; };
+		187E0F101E13B2950009CFAC /* RedPackgeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187E0F0F1E13B2950009CFAC /* RedPackgeUITests.m */; };
+		187E0F271E13B2C60009CFAC /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 187E0F201E13B2C60009CFAC /* HttpRequest.m */; };
+		187E0F281E13B2C60009CFAC /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 187E0F221E13B2C60009CFAC /* libWeChatSDK.a */; };
+		187E0F291E13B2C60009CFAC /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 187E0F231E13B2C60009CFAC /* README.txt */; };
+		187E0F2C1E13B43A0009CFAC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187E0F2B1E13B43A0009CFAC /* CFNetwork.framework */; };
+		187E0F2E1E13B4480009CFAC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187E0F2D1E13B4480009CFAC /* CoreTelephony.framework */; };
+		187E0F301E13B4630009CFAC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187E0F2F1E13B4630009CFAC /* SystemConfiguration.framework */; };
+		187E0F321E13B46D0009CFAC /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 187E0F311E13B46D0009CFAC /* libz.1.1.3.tbd */; };
+		187E0F341E13B4890009CFAC /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 187E0F331E13B4890009CFAC /* libsqlite3.0.tbd */; };
+		187E0F361E13B4BF0009CFAC /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 187E0F351E13B4BF0009CFAC /* libc++.1.tbd */; };
+		187E0F381E13B4CD0009CFAC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187E0F371E13B4CD0009CFAC /* Security.framework */; };
+		187E0F3C1E13C27C0009CFAC /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187E0F3B1E13C27C0009CFAC /* AFNetworking.framework */; };
+		B3080FC16AAE2852CBB7C1B5 /* Pods_RedPackge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4A7792187A0B52AB99E609 /* Pods_RedPackge.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		187E0F011E13B2950009CFAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187E0EDF1E13B2940009CFAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187E0EE61E13B2940009CFAC;
+			remoteInfo = RedPackge;
+		};
+		187E0F0C1E13B2950009CFAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187E0EDF1E13B2940009CFAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187E0EE61E13B2940009CFAC;
+			remoteInfo = RedPackge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		186FE0FB1E150C5C001B1DD3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		186FE0FD1E150C81001B1DD3 /* WebViewJavascriptBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebViewJavascriptBridge.framework; path = "../../Library/Developer/Xcode/DerivedData/RedPackge-gqlcezptbisujffqjfghzxvbsqxs/Build/Products/Debug-iphoneos/WebViewJavascriptBridge/WebViewJavascriptBridge.framework"; sourceTree = "<group>"; };
+		186FE1011E1510E7001B1DD3 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		186FE1021E1510E7001B1DD3 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		186FE1031E1510E7001B1DD3 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		186FE1041E1510E7001B1DD3 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		186FE1051E1510E7001B1DD3 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		186FE1061E1510E7001B1DD3 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		186FE1071E1510E7001B1DD3 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		186FE1081E1510E7001B1DD3 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		186FE1091E1510E7001B1DD3 /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		186FE10A1E1510E7001B1DD3 /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		186FE10C1E1510E7001B1DD3 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		186FE10D1E1510E7001B1DD3 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		186FE10E1E1510E7001B1DD3 /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		186FE10F1E1510E7001B1DD3 /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
+		186FE1101E1510E7001B1DD3 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		186FE1111E1510E7001B1DD3 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		186FE1131E1510E7001B1DD3 /* IQSegmentedNextPrevious.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQSegmentedNextPrevious.h; sourceTree = "<group>"; };
+		186FE1141E1510E7001B1DD3 /* IQSegmentedNextPrevious.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQSegmentedNextPrevious.m; sourceTree = "<group>"; };
+		186FE1161E1510E7001B1DD3 /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		186FE1171E1510E7001B1DD3 /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
+		186FE1191E1510E7001B1DD3 /* IQBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		186FE11A1E1510E7001B1DD3 /* IQBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
+		186FE11B1E1510E7001B1DD3 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		186FE11C1E1510E7001B1DD3 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		186FE11D1E1510E7001B1DD3 /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		186FE11E1E1510E7001B1DD3 /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
+		186FE11F1E1510E7001B1DD3 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		186FE1201E1510E7001B1DD3 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		186FE1211E1510E7001B1DD3 /* KeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardManager.h; sourceTree = "<group>"; };
+		186FE1231E1510E7001B1DD3 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		187E0EE71E13B2940009CFAC /* RedPackge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedPackge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187E0EEB1E13B2940009CFAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		187E0EED1E13B2940009CFAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		187E0EEE1E13B2940009CFAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		187E0EF01E13B2940009CFAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		187E0EF41E13B2950009CFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		187E0EF61E13B2950009CFAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187E0EF91E13B2950009CFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		187E0EFB1E13B2950009CFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187E0F001E13B2950009CFAC /* RedPackgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedPackgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187E0F041E13B2950009CFAC /* RedPackgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedPackgeTests.m; sourceTree = "<group>"; };
+		187E0F061E13B2950009CFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187E0F0B1E13B2950009CFAC /* RedPackgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedPackgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187E0F0F1E13B2950009CFAC /* RedPackgeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedPackgeUITests.m; sourceTree = "<group>"; };
+		187E0F111E13B2950009CFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187E0F1F1E13B2C60009CFAC /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
+		187E0F201E13B2C60009CFAC /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequest.m; sourceTree = "<group>"; };
+		187E0F221E13B2C60009CFAC /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		187E0F231E13B2C60009CFAC /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		187E0F241E13B2C60009CFAC /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		187E0F251E13B2C60009CFAC /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		187E0F261E13B2C60009CFAC /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		187E0F2B1E13B43A0009CFAC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		187E0F2D1E13B4480009CFAC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		187E0F2F1E13B4630009CFAC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		187E0F311E13B46D0009CFAC /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		187E0F331E13B4890009CFAC /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		187E0F351E13B4BF0009CFAC /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		187E0F371E13B4CD0009CFAC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		187E0F3B1E13C27C0009CFAC /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../../Library/Developer/Xcode/DerivedData/RedPackge-gqlcezptbisujffqjfghzxvbsqxs/Build/Products/Debug-iphoneos/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
+		2C9E792A25EB67D8C9F34018 /* Pods-RedPackge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedPackge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedPackge/Pods-RedPackge.debug.xcconfig"; sourceTree = "<group>"; };
+		6A4A7792187A0B52AB99E609 /* Pods_RedPackge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedPackge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9816D9841C205402BA6CC930 /* Pods-RedPackge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedPackge.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedPackge/Pods-RedPackge.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187E0EE41E13B2940009CFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186FE0FE1E150C81001B1DD3 /* WebViewJavascriptBridge.framework in Frameworks */,
+				187E0F3C1E13C27C0009CFAC /* AFNetworking.framework in Frameworks */,
+				187E0F381E13B4CD0009CFAC /* Security.framework in Frameworks */,
+				187E0F361E13B4BF0009CFAC /* libc++.1.tbd in Frameworks */,
+				187E0F341E13B4890009CFAC /* libsqlite3.0.tbd in Frameworks */,
+				187E0F321E13B46D0009CFAC /* libz.1.1.3.tbd in Frameworks */,
+				187E0F301E13B4630009CFAC /* SystemConfiguration.framework in Frameworks */,
+				187E0F2E1E13B4480009CFAC /* CoreTelephony.framework in Frameworks */,
+				187E0F2C1E13B43A0009CFAC /* CFNetwork.framework in Frameworks */,
+				187E0F281E13B2C60009CFAC /* libWeChatSDK.a in Frameworks */,
+				B3080FC16AAE2852CBB7C1B5 /* Pods_RedPackge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187E0EFD1E13B2950009CFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187E0F081E13B2950009CFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		186FE0FF1E1510E7001B1DD3 /* IQKeyBoardManager */ = {
+			isa = PBXGroup;
+			children = (
+				186FE1001E1510E7001B1DD3 /* Categories */,
+				186FE10B1E1510E7001B1DD3 /* Constants */,
+				186FE10E1E1510E7001B1DD3 /* IQKeyboardManager.h */,
+				186FE10F1E1510E7001B1DD3 /* IQKeyboardManager.m */,
+				186FE1101E1510E7001B1DD3 /* IQKeyboardReturnKeyHandler.h */,
+				186FE1111E1510E7001B1DD3 /* IQKeyboardReturnKeyHandler.m */,
+				186FE1121E1510E7001B1DD3 /* IQSegmentedNextPrevious */,
+				186FE1151E1510E7001B1DD3 /* IQTextView */,
+				186FE1181E1510E7001B1DD3 /* IQToolbar */,
+				186FE1211E1510E7001B1DD3 /* KeyboardManager.h */,
+				186FE1221E1510E7001B1DD3 /* Resources */,
+			);
+			path = IQKeyBoardManager;
+			sourceTree = "<group>";
+		};
+		186FE1001E1510E7001B1DD3 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				186FE1011E1510E7001B1DD3 /* IQNSArray+Sort.h */,
+				186FE1021E1510E7001B1DD3 /* IQNSArray+Sort.m */,
+				186FE1031E1510E7001B1DD3 /* IQUITextFieldView+Additions.h */,
+				186FE1041E1510E7001B1DD3 /* IQUITextFieldView+Additions.m */,
+				186FE1051E1510E7001B1DD3 /* IQUIView+Hierarchy.h */,
+				186FE1061E1510E7001B1DD3 /* IQUIView+Hierarchy.m */,
+				186FE1071E1510E7001B1DD3 /* IQUIViewController+Additions.h */,
+				186FE1081E1510E7001B1DD3 /* IQUIViewController+Additions.m */,
+				186FE1091E1510E7001B1DD3 /* IQUIWindow+Hierarchy.h */,
+				186FE10A1E1510E7001B1DD3 /* IQUIWindow+Hierarchy.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		186FE10B1E1510E7001B1DD3 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				186FE10C1E1510E7001B1DD3 /* IQKeyboardManagerConstants.h */,
+				186FE10D1E1510E7001B1DD3 /* IQKeyboardManagerConstantsInternal.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		186FE1121E1510E7001B1DD3 /* IQSegmentedNextPrevious */ = {
+			isa = PBXGroup;
+			children = (
+				186FE1131E1510E7001B1DD3 /* IQSegmentedNextPrevious.h */,
+				186FE1141E1510E7001B1DD3 /* IQSegmentedNextPrevious.m */,
+			);
+			path = IQSegmentedNextPrevious;
+			sourceTree = "<group>";
+		};
+		186FE1151E1510E7001B1DD3 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				186FE1161E1510E7001B1DD3 /* IQTextView.h */,
+				186FE1171E1510E7001B1DD3 /* IQTextView.m */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		186FE1181E1510E7001B1DD3 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				186FE1191E1510E7001B1DD3 /* IQBarButtonItem.h */,
+				186FE11A1E1510E7001B1DD3 /* IQBarButtonItem.m */,
+				186FE11B1E1510E7001B1DD3 /* IQTitleBarButtonItem.h */,
+				186FE11C1E1510E7001B1DD3 /* IQTitleBarButtonItem.m */,
+				186FE11D1E1510E7001B1DD3 /* IQToolbar.h */,
+				186FE11E1E1510E7001B1DD3 /* IQToolbar.m */,
+				186FE11F1E1510E7001B1DD3 /* IQUIView+IQKeyboardToolbar.h */,
+				186FE1201E1510E7001B1DD3 /* IQUIView+IQKeyboardToolbar.m */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		186FE1221E1510E7001B1DD3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				186FE1231E1510E7001B1DD3 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		187E0EDE1E13B2940009CFAC = {
+			isa = PBXGroup;
+			children = (
+				187E0EE91E13B2940009CFAC /* RedPackge */,
+				187E0F031E13B2950009CFAC /* RedPackgeTests */,
+				187E0F0E1E13B2950009CFAC /* RedPackgeUITests */,
+				187E0EE81E13B2940009CFAC /* Products */,
+				187E0F2A1E13B43A0009CFAC /* Frameworks */,
+				4631484483519608B5F24A37 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		187E0EE81E13B2940009CFAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187E0EE71E13B2940009CFAC /* RedPackge.app */,
+				187E0F001E13B2950009CFAC /* RedPackgeTests.xctest */,
+				187E0F0B1E13B2950009CFAC /* RedPackgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187E0EE91E13B2940009CFAC /* RedPackge */ = {
+			isa = PBXGroup;
+			children = (
+				187E0F1D1E13B2C60009CFAC /* Vendors */,
+				187E0EED1E13B2940009CFAC /* AppDelegate.h */,
+				187E0EEE1E13B2940009CFAC /* AppDelegate.m */,
+				187E0EF01E13B2940009CFAC /* ViewController.h */,
+				186FE0FB1E150C5C001B1DD3 /* ViewController.m */,
+				187E0EF31E13B2950009CFAC /* Main.storyboard */,
+				187E0EF61E13B2950009CFAC /* Assets.xcassets */,
+				187E0EF81E13B2950009CFAC /* LaunchScreen.storyboard */,
+				187E0EFB1E13B2950009CFAC /* Info.plist */,
+				187E0EEA1E13B2940009CFAC /* Supporting Files */,
+			);
+			path = RedPackge;
+			sourceTree = "<group>";
+		};
+		187E0EEA1E13B2940009CFAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				187E0EEB1E13B2940009CFAC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		187E0F031E13B2950009CFAC /* RedPackgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				187E0F041E13B2950009CFAC /* RedPackgeTests.m */,
+				187E0F061E13B2950009CFAC /* Info.plist */,
+			);
+			path = RedPackgeTests;
+			sourceTree = "<group>";
+		};
+		187E0F0E1E13B2950009CFAC /* RedPackgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				187E0F0F1E13B2950009CFAC /* RedPackgeUITests.m */,
+				187E0F111E13B2950009CFAC /* Info.plist */,
+			);
+			path = RedPackgeUITests;
+			sourceTree = "<group>";
+		};
+		187E0F1D1E13B2C60009CFAC /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				186FE0FF1E1510E7001B1DD3 /* IQKeyBoardManager */,
+				187E0F1E1E13B2C60009CFAC /* HttpRequest */,
+				187E0F211E13B2C60009CFAC /* OpenSDK1.7.5 */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		187E0F1E1E13B2C60009CFAC /* HttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				187E0F1F1E13B2C60009CFAC /* HttpRequest.h */,
+				187E0F201E13B2C60009CFAC /* HttpRequest.m */,
+			);
+			path = HttpRequest;
+			sourceTree = "<group>";
+		};
+		187E0F211E13B2C60009CFAC /* OpenSDK1.7.5 */ = {
+			isa = PBXGroup;
+			children = (
+				187E0F221E13B2C60009CFAC /* libWeChatSDK.a */,
+				187E0F231E13B2C60009CFAC /* README.txt */,
+				187E0F241E13B2C60009CFAC /* WechatAuthSDK.h */,
+				187E0F251E13B2C60009CFAC /* WXApi.h */,
+				187E0F261E13B2C60009CFAC /* WXApiObject.h */,
+			);
+			path = OpenSDK1.7.5;
+			sourceTree = "<group>";
+		};
+		187E0F2A1E13B43A0009CFAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				186FE0FD1E150C81001B1DD3 /* WebViewJavascriptBridge.framework */,
+				187E0F3B1E13C27C0009CFAC /* AFNetworking.framework */,
+				187E0F371E13B4CD0009CFAC /* Security.framework */,
+				187E0F351E13B4BF0009CFAC /* libc++.1.tbd */,
+				187E0F331E13B4890009CFAC /* libsqlite3.0.tbd */,
+				187E0F311E13B46D0009CFAC /* libz.1.1.3.tbd */,
+				187E0F2F1E13B4630009CFAC /* SystemConfiguration.framework */,
+				187E0F2D1E13B4480009CFAC /* CoreTelephony.framework */,
+				187E0F2B1E13B43A0009CFAC /* CFNetwork.framework */,
+				6A4A7792187A0B52AB99E609 /* Pods_RedPackge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4631484483519608B5F24A37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C9E792A25EB67D8C9F34018 /* Pods-RedPackge.debug.xcconfig */,
+				9816D9841C205402BA6CC930 /* Pods-RedPackge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187E0EE61E13B2940009CFAC /* RedPackge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187E0F141E13B2950009CFAC /* Build configuration list for PBXNativeTarget "RedPackge" */;
+			buildPhases = (
+				C19337F715C7B53445154DC5 /* [CP] Check Pods Manifest.lock */,
+				187E0EE31E13B2940009CFAC /* Sources */,
+				187E0EE41E13B2940009CFAC /* Frameworks */,
+				187E0EE51E13B2940009CFAC /* Resources */,
+				F48A218D88CA30BB7C428A18 /* [CP] Embed Pods Frameworks */,
+				B54306E76F06734960514C7D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedPackge;
+			productName = RedPackge;
+			productReference = 187E0EE71E13B2940009CFAC /* RedPackge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		187E0EFF1E13B2950009CFAC /* RedPackgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187E0F171E13B2950009CFAC /* Build configuration list for PBXNativeTarget "RedPackgeTests" */;
+			buildPhases = (
+				187E0EFC1E13B2950009CFAC /* Sources */,
+				187E0EFD1E13B2950009CFAC /* Frameworks */,
+				187E0EFE1E13B2950009CFAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187E0F021E13B2950009CFAC /* PBXTargetDependency */,
+			);
+			name = RedPackgeTests;
+			productName = RedPackgeTests;
+			productReference = 187E0F001E13B2950009CFAC /* RedPackgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		187E0F0A1E13B2950009CFAC /* RedPackgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187E0F1A1E13B2950009CFAC /* Build configuration list for PBXNativeTarget "RedPackgeUITests" */;
+			buildPhases = (
+				187E0F071E13B2950009CFAC /* Sources */,
+				187E0F081E13B2950009CFAC /* Frameworks */,
+				187E0F091E13B2950009CFAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187E0F0D1E13B2950009CFAC /* PBXTargetDependency */,
+			);
+			name = RedPackgeUITests;
+			productName = RedPackgeUITests;
+			productReference = 187E0F0B1E13B2950009CFAC /* RedPackgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187E0EDF1E13B2940009CFAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					187E0EE61E13B2940009CFAC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8D24Y578S4;
+						ProvisioningStyle = Automatic;
+					};
+					187E0EFF1E13B2950009CFAC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 48EHPK785T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 187E0EE61E13B2940009CFAC;
+					};
+					187E0F0A1E13B2950009CFAC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 48EHPK785T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 187E0EE61E13B2940009CFAC;
+					};
+				};
+			};
+			buildConfigurationList = 187E0EE21E13B2940009CFAC /* Build configuration list for PBXProject "RedPackge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187E0EDE1E13B2940009CFAC;
+			productRefGroup = 187E0EE81E13B2940009CFAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187E0EE61E13B2940009CFAC /* RedPackge */,
+				187E0EFF1E13B2950009CFAC /* RedPackgeTests */,
+				187E0F0A1E13B2950009CFAC /* RedPackgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187E0EE51E13B2940009CFAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186FE1311E1510E7001B1DD3 /* IQKeyboardManager.bundle in Resources */,
+				187E0EFA1E13B2950009CFAC /* LaunchScreen.storyboard in Resources */,
+				187E0EF71E13B2950009CFAC /* Assets.xcassets in Resources */,
+				187E0F291E13B2C60009CFAC /* README.txt in Resources */,
+				187E0EF51E13B2950009CFAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187E0EFE1E13B2950009CFAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187E0F091E13B2950009CFAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B54306E76F06734960514C7D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedPackge/Pods-RedPackge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C19337F715C7B53445154DC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F48A218D88CA30BB7C428A18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedPackge/Pods-RedPackge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187E0EE31E13B2940009CFAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186FE12C1E1510E7001B1DD3 /* IQTextView.m in Sources */,
+				186FE1291E1510E7001B1DD3 /* IQKeyboardManager.m in Sources */,
+				186FE1251E1510E7001B1DD3 /* IQUITextFieldView+Additions.m in Sources */,
+				186FE12F1E1510E7001B1DD3 /* IQToolbar.m in Sources */,
+				186FE12B1E1510E7001B1DD3 /* IQSegmentedNextPrevious.m in Sources */,
+				186FE12A1E1510E7001B1DD3 /* IQKeyboardReturnKeyHandler.m in Sources */,
+				187E0F271E13B2C60009CFAC /* HttpRequest.m in Sources */,
+				186FE1271E1510E7001B1DD3 /* IQUIViewController+Additions.m in Sources */,
+				186FE1281E1510E7001B1DD3 /* IQUIWindow+Hierarchy.m in Sources */,
+				186FE12D1E1510E7001B1DD3 /* IQBarButtonItem.m in Sources */,
+				187E0EEF1E13B2940009CFAC /* AppDelegate.m in Sources */,
+				186FE12E1E1510E7001B1DD3 /* IQTitleBarButtonItem.m in Sources */,
+				186FE0FC1E150C5C001B1DD3 /* ViewController.m in Sources */,
+				187E0EEC1E13B2940009CFAC /* main.m in Sources */,
+				186FE1301E1510E7001B1DD3 /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				186FE1241E1510E7001B1DD3 /* IQNSArray+Sort.m in Sources */,
+				186FE1261E1510E7001B1DD3 /* IQUIView+Hierarchy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187E0EFC1E13B2950009CFAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187E0F051E13B2950009CFAC /* RedPackgeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187E0F071E13B2950009CFAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187E0F101E13B2950009CFAC /* RedPackgeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		187E0F021E13B2950009CFAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187E0EE61E13B2940009CFAC /* RedPackge */;
+			targetProxy = 187E0F011E13B2950009CFAC /* PBXContainerItemProxy */;
+		};
+		187E0F0D1E13B2950009CFAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187E0EE61E13B2940009CFAC /* RedPackge */;
+			targetProxy = 187E0F0C1E13B2950009CFAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		187E0EF31E13B2950009CFAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187E0EF41E13B2950009CFAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		187E0EF81E13B2950009CFAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187E0EF91E13B2950009CFAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		187E0F121E13B2950009CFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		187E0F131E13B2950009CFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187E0F151E13B2950009CFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C9E792A25EB67D8C9F34018 /* Pods-RedPackge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8D24Y578S4;
+				INFOPLIST_FILE = RedPackge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RedPackge/Vendors/OpenSDK1.7.5",
+					$CONFIGURATION_BUILD_DIR/AFNetworking,
+				);
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SX.qingkehuijia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		187E0F161E13B2950009CFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9816D9841C205402BA6CC930 /* Pods-RedPackge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8D24Y578S4;
+				INFOPLIST_FILE = RedPackge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RedPackge/Vendors/OpenSDK1.7.5",
+					$CONFIGURATION_BUILD_DIR/AFNetworking,
+				);
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SX.qingkehuijia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		187E0F181E13B2950009CFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 48EHPK785T;
+				INFOPLIST_FILE = RedPackgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sixue.bietiewo.RedPackgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedPackge.app/RedPackge";
+			};
+			name = Debug;
+		};
+		187E0F191E13B2950009CFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 48EHPK785T;
+				INFOPLIST_FILE = RedPackgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sixue.bietiewo.RedPackgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedPackge.app/RedPackge";
+			};
+			name = Release;
+		};
+		187E0F1B1E13B2950009CFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 48EHPK785T;
+				INFOPLIST_FILE = RedPackgeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sixue.bietiewo.RedPackgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RedPackge;
+			};
+			name = Debug;
+		};
+		187E0F1C1E13B2950009CFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 48EHPK785T;
+				INFOPLIST_FILE = RedPackgeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sixue.bietiewo.RedPackgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RedPackge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187E0EE21E13B2940009CFAC /* Build configuration list for PBXProject "RedPackge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187E0F121E13B2950009CFAC /* Debug */,
+				187E0F131E13B2950009CFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187E0F141E13B2950009CFAC /* Build configuration list for PBXNativeTarget "RedPackge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187E0F151E13B2950009CFAC /* Debug */,
+				187E0F161E13B2950009CFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187E0F171E13B2950009CFAC /* Build configuration list for PBXNativeTarget "RedPackgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187E0F181E13B2950009CFAC /* Debug */,
+				187E0F191E13B2950009CFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187E0F1A1E13B2950009CFAC /* Build configuration list for PBXNativeTarget "RedPackgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187E0F1B1E13B2950009CFAC /* Debug */,
+				187E0F1C1E13B2950009CFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187E0EDF1E13B2940009CFAC /* Project object */;
+}
